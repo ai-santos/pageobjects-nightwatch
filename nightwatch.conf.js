@@ -6,6 +6,7 @@ module.exports = {
   "src_folders": [
     "test/ui_tests"
   ],
+  "page_objects_path": "test/page_objects",
   "output_folder": "./reports",
   "selenium": {
     "start_process": true,
@@ -18,6 +19,7 @@ module.exports = {
   },
   "test_settings": {
     "default": {
+      "launch_url": "https://saucelabs.com",
       "screenshots": {
         "enabled": true,
         "path": SCREENSHOT_PATH
